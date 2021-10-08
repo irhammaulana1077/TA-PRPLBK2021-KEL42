@@ -1,0 +1,185 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nama": "Asam Padeh Ikan",
+      "harga": 22000,
+      "gambar": "asam-padeh-ikan.jpg",
+      "keterangan": "Makanan olahan ikan yang dimasak dengan kuah kental yang bercita rasa asam, pedas, dan gurih yang bercampur menjadi satu.",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "nama": "Lontong Gulai",
+      "harga": 20000,
+      "gambar": "lontong-gulai.jpg",
+      "keterangan": "Makanan yang terdiri dari lontong yang disiram dengan kuah gulai sayur Nangka yang bercita rasa pedas dan perpaduan gurih dari santan.",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "nama": "Rendang",
+      "harga": 30000,
+      "gambar": "rendang.jpg",
+      "keterangan": "Masakan daging bercita rasa pedas, perpaduan dari berbagai macam rempah-rempah dan santan kelapa.",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "nama": "Sate Padang",
+      "harga": 25000,
+      "gambar": "sate-padang.jpg",
+      "keterangan": "Daging sate dan Katupek yang disiram dengan kuah kental yang memiliki cita rasa pedas dan gurih.",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "nama": "Soto Padang",
+      "harga": 27000,
+      "gambar": "soto-padang.jpg",
+      "keterangan": "Soto yang terdiri dari bihun, irisan daging goreng, dan perkedel kentang yang disiram dengan kuah bening kekuningan dengan cita rasa gurih.",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "nama": "Kipang Kacang",
+      "harga": 20000,
+      "gambar": "kipang-kacang.jpg",
+      "keterangan": "Cemilan yang terbuat dari perpaduan kacang tanah dan gula merah yang di karamelisasi.",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 7,
+      "nama": "Lamang Tapai",
+      "harga": 27000,
+      "gambar": "lamang-tapai.jpg",
+      "keterangan": "Lamang merupakan beras ketan putih yang diberi santan lalu dimasukkan kedalam bambu muda dan dibakar, dimakan bersama tapai yang terbuat dari ketan hitam yang telah di fermentasi.",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 8,
+      "nama": "Onde Onde",
+      "harga": 20000,
+      "gambar": "onde-onde.jpg",
+      "keterangan": "Jajanan khas yang terbuat dari olahan tepung dan daun pandan sebagai pewarna alami yang diisi gula merah didalamnya dan dibaluri dengan parutan kelapa.",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 9,
+      "nama": "Paniaram",
+      "harga": 25000,
+      "gambar": "paniaram.jpg",
+      "keterangan": "Cemilan khas yang terbuat dari tepung beras hitam, gula aren, santan, gula pasir, dan bahan lainnya yang dicampur menjadi satu kemudian di cetak dan dimasak di kuali.",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 10,
+      "nama": "Sala Lauak",
+      "harga": 20000,
+      "gambar": "sala-lauak.jpg",
+      "keterangan": "Cemilan khas yang terbuat dari olahan tepung dan ikan serta berbagai macam rempah yang memiliki rasa gurih dan tekstur renyah diluar lembut didalam.",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 11,
+      "nama": "Aia Aka",
+      "harga": 20000,
+      "gambar": "aia-aka.jpg",
+      "keterangan": "Minuman tradisional yang terdiri dari agar-agar yang terbuat dari daun cincau hijau yang memiliki rasa agak pahit dan disiram dengan kuah gula aren dan santan.",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 12,
+      "nama": "Cindu Emping",
+      "harga": 20000,
+      "gambar": "cindu-emping.jpg",
+      "keterangan": "Minuman yang terdiri dari cendol, tapai dan emping (olahan ketan khas Padang) yang disiram dengan kuah gula aren dan santan.",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 13,
+      "nama": "Dadiah",
+      "harga": 22000,
+      "gambar": "dadiah.jpg",
+      "keterangan": "Sering disebut sebagai yogurt tradisional yang dibuat dari fermentasi alami susu kerbau yang ditempatkan pada ruas bambu. Penyajiannya disiram dengan kuah gula aren dan emping ketan.",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 14,
+      "nama": "Es Tebak",
+      "harga": 28000,
+      "gambar": "es-tebak.jpg",
+      "keterangan": "Es segar dengan campuran cendol, berbagai macam agar-agar, tapai, dan roti tawar yang memiliki kuah manis berwarna pink dan dicampur susu kental manis.",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 15,
+      "nama": "Kawa Daun",
+      "harga": 20000,
+      "gambar": "kawa-daun.jpg",
+      "keterangan": "Minuman khas yang terbuat dari daun kopi yang diolah seperti teh dengan Penyajian nya ditempatkan pada wadah yang terbuat dari batok kelapa.",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": []
+}
