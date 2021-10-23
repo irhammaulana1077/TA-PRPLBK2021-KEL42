@@ -5,6 +5,12 @@ import ModalMenu from "../components/ModalMenu";
 import { API_URL } from "../others/api";
 import axios from "axios";
 import swal from "sweetalert";
+import { NavigationBar } from '../components';
+
+const navigations = [
+  { name: 'Home', href: '#home' },
+  { name: 'Menu', href: '#menu'},
+];
 
 export default class Home extends Component {
   constructor(props) {
@@ -16,7 +22,9 @@ export default class Home extends Component {
       keranjangs: [],
       showModal: false,
       menuDetail: false,
+      showCart: false,
     };
+
   }
 
   componentDidMount() {
@@ -71,6 +79,12 @@ export default class Home extends Component {
         console.log("Error", error);
       });
   };
+
+  toggleShow = () => {
+    this.setState(prevState => ({
+      showCart: !prevState.showCart
+    }))
+  }
 
   handleShow = (menu) => {
     this.setState({
@@ -142,8 +156,10 @@ export default class Home extends Component {
   };
 
   render() {
-    const { menus, categoriYangDipilih, keranjangs } = this.state;
+    const { menus, categoriYangDipilih, keranjangs, showCart } = this.state;
     return (
+      <div>
+      <NavigationBar title1 = "kuliner" title2 = "Padang" navigations = {navigations} keranjangs={keranjangs} toggleShow = {this.toggleShow} />
         <div className="mt-3">
           <Container fluid>
             <Row>
@@ -172,9 +188,11 @@ export default class Home extends Component {
                 masukKeranjang={this.masukKeranjang}
               />
               </Col>
-              <Keranjangs keranjangs={keranjangs} {...this.props}/>
+              {showCart ? <Keranjangs keranjangs={keranjangs} {...this.props}/> : null}
+              
             </Row>
           </Container>
+        </div>
         </div>
     );
   }
