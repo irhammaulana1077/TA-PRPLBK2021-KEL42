@@ -84,7 +84,7 @@ export default class Keranjangs extends Component {
         });
       })
       .catch((error) => {
-        console.log("Error yaa ", error);
+        console.log("Error", error);
       });
   };
 
@@ -104,7 +104,7 @@ export default class Keranjangs extends Component {
         });
       })
       .catch((error) => {
-        console.log("Error yaa ", error);
+        console.log("Error", error);
       });
   };
 
